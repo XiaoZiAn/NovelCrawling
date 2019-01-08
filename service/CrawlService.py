@@ -6,3 +6,9 @@ for character in message:
  count[character] = count[character] + 1
 print(count)
 pprint.pprint(count)#漂亮打印
+
+
+
+spam = ' Hello World '
+newspam = spam.strip()
+pprint.pprint(newspam)
